@@ -21,4 +21,4 @@ It will then output the follow HTML snippet, which you can copy directly into yo
 
 - MAC OSX 10.11.2 (non-extensive testing)
 
-Feel free to let me know what systems it does/doesnt work on :).
+Feel free to let me know what systems it does/doesnt work on :)
