@@ -15,7 +15,7 @@ The syntax ./integrity.sh url, here is an example for jquery:
 It will then output the follow HTML snippet, which you can copy directly into your project:
 
 ```html
-<script src=https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM= sha512-7aMbXH03HUs6zO1R+pLyekF1FTF89Deq4JpHw6zIo2vbtaXnDw+/2C03Je30WFDd6MpSwg+aLW4Di46qzu488Q=="></script>'
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM= sha512-7aMbXH03HUs6zO1R+pLyekF1FTF89Deq4JpHw6zIo2vbtaXnDw+/2C03Je30WFDd6MpSwg+aLW4Di46qzu488Q=="></script>'
 ```
 ##What OS has it been tested on?
 
