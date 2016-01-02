@@ -10,12 +10,12 @@ Run the following commands to fetch script and allow it to run:
 
 The syntax ./integrity.sh url, here is an example for jquery:
 
-- ./integrity.sh https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
+- ./integrity.sh https://code.jquery.com/jquery-2.1.4.min.js
 
 It will then output the follow HTML snippet, which you can copy directly into your project:
 
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM= sha512-7aMbXH03HUs6zO1R+pLyekF1FTF89Deq4JpHw6zIo2vbtaXnDw+/2C03Je30WFDd6MpSwg+aLW4Di46qzu488Q=="></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw= sha512-Pcrh/26Yxk41hr4+sU3UhsUffU6fobj5pii+T7tqmrVi8x+bUOFtLgxyuUK9voTu6ODvh/pzDbFCixmaWdiCMg==" crossorigin="anonymous"></script>
 ```
 ##What OS has it been tested on?
 

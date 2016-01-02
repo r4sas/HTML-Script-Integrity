@@ -25,7 +25,7 @@ do
 		checked=true
 		clear
 		printf "Success!\n\nCopy the following html snippet:\n\n"
-		printf "<script src=\""$1"\" integrity=\"sha256-"$firstSHA256" sha512-"$firstSHA512"\"></script>\n\n"
+		printf "<script src=\""$1"\" integrity=\"sha256-"$firstSHA256" sha512-"$firstSHA512"\" crossorigin=\"anonymous\"></script>\n\n"
 	else
 		if [ $count -gt 3 ]
 		then
